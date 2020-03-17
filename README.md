@@ -1,6 +1,6 @@
-# plantillas_LATEX
+# Plantillas en LATEX
 Este repositorio contiene plantillas en LATEX para realizar informes y trabajos de grado
 
-# plataformas 
+# Plataformas o editores
 - Overleaf
 - Texmaker
