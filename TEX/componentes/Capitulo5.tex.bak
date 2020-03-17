@@ -1,0 +1,54 @@
+\chapter{Conclusiones y Recomendaciones}
+\section{Conclusiones}
+
+Las conclusiones constituyen un capítulo independiente y presentan, en forma lógica, los resultados del trabajo. Las conclusiones deben ser la respuesta a los objetivos o propósitos planteados. Se deben titular con la palabra conclusiones en el mismo formato de los títulos de los capítulos anteriores (Títulos primer nivel), precedida por el numeral correspondiente (según la presente plantilla). \\
+
+Las conclusiones deben contemplar las perspectivas de la investigación, las cuales son sugerencias, proyecciones o alternativas que se presentan para modificar, cambiar o incidir sobre una situación específica o una problemática encontrada. Pueden presentarse como un texto con características argumentativas, resultado de una reflexión acerca del trabajo de investigación. 
+
+
+\section{Recomendaciones}
+
+Se presentan como una serie de aspectos que se podrían realizar en un futuro para emprender investigaciones similares o fortalecer la investigación realizada.
+
+\section{bibliografia}
+%\markboth{}{}
+
+Existen algunos ejemplos para la citaci\'{o}n bibliogr\'{a}fica, por ejemplo, Microsoft Word (versiones posteriores al 2006), en el  men\'{u} de referencias, se cuenta con la opci\'{o}n de insertar citas bibliogr\'{a}ficas utilizando la norma APA (American Psychological Association) u otras normas y con la ayuda para construir autom\'{a}ticamente la lista al final del documento. De la misma manera, existen administradores bibliogr\'{a}ficos compatibles con Microsoft Word como Zotero, End Note y el Reference Manager,  disponibles a trav\'{e}s del Sistema Nacional de Bibliotecas (SINAB) de la Universidad Nacional de Colombia secci\'{o}n "Recursos bibliogr\'{a}ficos" opci\'{o}n "Herramientas Bibliogr\'{a}ficas. A continuaci\'{o}n se muestra un ejemplo de una de las formas m\'{a}s usadas para las citaciones bibliogr\'{a}ficas.\\
+
+Citaci\'{o}n individual:\cite{AG01}.\\
+Citaci\'{o}n simult\'{a}nea de varios autores:
+\cite{AG12,AG52,AG70,AG08a,AG09a,AG36a,AG01i}.\\
+
+Por lo general, las referencias bibliogr\'{a}ficas correspondientes a los anteriores n\'{u}meros, se listan al final del documento en orden de aparici\'{o}n o en orden alfab\'{e}tico. Otras normas de citaci\'{o}n incluyen el apellido del autor y el a\~{n}o de la referencia, por ejemplo: 1) "...\'{e}nfasis en elementos ligados al \'{a}mbito ingenieril que se enfocan en el manejo de datos e informaci\'{o}n estructurada y que seg\'{u}n Kostoff (1997) ha atra\'{\i}do la atenci\'{o}n de investigadores dado el advenimiento de TIC...", 2) "...Dicha afirmaci\'{o}n coincide con los planteamientos de Snarch (1998), citado por Castellanos (2007), quien comenta que el manejo..." y 3) "...el futuro del sistema para argumentar los procesos de toma de decisiones y el desarrollo de ideas innovadoras (Nosella \textsl{et al}., 2008)...".\\
+
+
+En esta sección de relacionan las fuentes documentales consultadas por el estudiante o investigador para sustenta su trabajo. Su inclusión es obligatoria. Cada referencia bibliográfica se inicia contra el margen izquierdo, y puede presentarse con interlineado sencillo. \\
+
+La Universidad acepta las siguientes tres normas para manejo de referencias: 
+
+\begin{center}
+\begin{table}[H]
+\centering
+\begin{tabular}{|p{2cm}|p{3cm}|p{6cm}|}
+\hline
+Institución	&	Disciplina de aplicación	& Vínculos y ejemplos \\ 
+\hline
+NTC 5613	&	varias	&	ICONTEC	\\ 
+\hline
+American Psychological Association (APA)                   & Común en ciencias de la salud, sociales, humanidades y administración. & APAStyle.org.
+\hspace{0.1cm}
+Biblioteca.udg.es/Info\ \_General/Guies/Cites/Citar\ 
+\_Llibres.asp (reglamento). 
+Liunet.edu/Cwis/Cwp/
+Library/Workshop/Citapa.htm (ejemplos).  \\ 
+\hline
+Institute of Electrical and Electronic Engineers (IEEE) & Ciencias
+básicas y técnicas (Ingenierías)	& IEEE	\\
+\hline
+\end{tabular}
+\end{table}
+\end{center}
+
+Para incluir las referencias dentro del texto y realizar lista de la bibliografía en esta sección, puede utilizar las herramientas de Microsoft Word para Citas y bibliografía en la pestaña de Referencias, utilizar administradores bibliográficos o, revisar el instructivo desarrollado por el Sistema de Bibliotecas de la Universidad Nacional de Colombia www.sinab.unal.edu.co, disponible en la sección “Servicios”, opción “Trámites” y enlace “Entrega de tesis”.
+
+Por ultimo se tomo como documento de apoyo la plantilla brindada por la Universidad Nacional en su portal "sinab" \cite{sinab}, mediante el cual se logro desarrollar esta plantilla personalizada.

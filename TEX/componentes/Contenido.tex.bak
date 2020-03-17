@@ -1,0 +1,25 @@
+\renewcommand{\tablename}{\textbf{Tabla}}
+\renewcommand{\figurename}{\textbf{Figura}}
+\renewcommand{\listtablename}{Lista de Tablas}
+\renewcommand{\listfigurename}{Lista de Figuras}
+
+%\cleardoublepage
+%\phantomsection
+%\addcontentsline{toc}{chapter}{Resumen\dotfill}
+
+{\renewcommand{\contentsname}{Contenido}\tableofcontents}
+
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Lista de figuras\dotfill} % para que aparezca en el indice de contenidos
+\listoffigures % indice de figuras
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Lista de tablas\dotfill} % para que aparezca en el indice de contenidos
+\listoftables % indice de tablas
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Introduccion\dotfill}

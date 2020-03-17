@@ -1,0 +1,11 @@
+\begin{titlepage}
+	\centering
+	\includegraphics[width=6cm]{figures/logo_universidad.png}\par \vspace{2cm}
+	{\textbf{\LARGE Control predictivo para el seguimiento de trayectorias en vehículos autónomos terrestres} \par}
+	\vspace{7cm}
+	{\Large \textbf{Juan Carlos Tique Rangel} \par}
+	\vfill %\vspace{7cm}
+	{\normalsize \textbf{Facultad de Ingeniería} \par}
+	{\normalsize \textbf{Programa de Ingeniería Electrónica} \par}
+	{\normalsize Ibagué, 2020 \par}
+\end{titlepage}

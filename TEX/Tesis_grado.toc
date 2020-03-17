@@ -1,0 +1,24 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{Resumen\dotfill }{\es@scroman {vii}}{chapter*.3}%
+\contentsline {chapter}{Lista de figuras\dotfill }{\es@scroman {ix}}{section*.6}%
+\contentsline {chapter}{Lista de tablas\dotfill }{\es@scroman {x}}{section*.8}%
+\contentsline {chapter}{Introduccion\dotfill }{1}{section*.10}%
+\contentsline {chapter}{\numberline {1}Nombre del capitulo}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Subtítulos nivel 2}{4}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Subtítulos nivel 3}{4}{subsection.1.1.1}%
+\contentsline {chapter}{\numberline {2}}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Ejemplos de citaciones bibliográficas}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Ejemplos de presentación y citación de figuras}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Citación de tablas y cuadros}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Consideraciones adicionales para el manejo de figuras y tablas}{7}{subsection.2.3.1}%
+\contentsline {chapter}{\numberline {3}capitulo 3}{9}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Capitulo 4}{10}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Conclusiones y Recomendaciones}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusiones}{11}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Recomendaciones}{11}{section.5.2}%
+\contentsline {section}{\numberline {5.3}bibliografia}{11}{section.5.3}%
+\contentsline {chapter}{Bibliografia\dotfill }{14}{chapter*.16}%
+\contentsline {chapter}{\numberline {A}Anexo: Nombrar el anexo A de acuerdo con su contenido}{15}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}Anexo: Nombrar el anexo B de acuerdo con su contenido}{16}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {C}Anexo: Nombrar el anexo C de acuerdo con su contenido}{17}{appendix.Alph3}%
+\contentsfinish 
