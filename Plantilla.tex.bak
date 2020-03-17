@@ -1,0 +1,320 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{fullpage}
+\usepackage{anysize}
+\marginsize{2.5cm}{2cm}{1cm}{2cm} %iz, der, arriba, abajo
+
+\usepackage{multicol} % This is so we can have multiple columns of text side-by-side
+\columnsep=20pt % This is the amount of white space between the columns in the poster
+\columnseprule=0pt % This is the thickness of the black line between the columns in the poster
+
+\usepackage[svgnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
+
+\usepackage{times} % Use the times font
+%\usepackage{palatino} % Uncomment to use the Palatino font
+
+\usepackage{graphicx} % Required for including images
+\graphicspath{{figures/}} % Location of the graphics files
+\graphicspath{ {images/} }
+\usepackage{float}
+\usepackage{mathdots} % para el comando \iddots
+\usepackage{mathrsfs} % para formato de letra
+\usepackage{amssymb, amsmath, amsbsy} % simbolitos
+\usepackage{booktabs} % Top and bottom rules for table
+\usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
+\usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
+\usepackage{wrapfig} % Allows wrapping text around tables and figures
+\usepackage{listings}
+\usepackage{matlab-prettifier}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel} %para agregar tildes 
+\usepackage{mathrsfs}
+\usepackage{multicol,caption}
+\usepackage{courier}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pie de pagina
+\usepackage{fancyhdr} % Cabeceras/Pies
+\pagestyle{fancy} % Cabeceras/Pies
+\usepackage{lastpage}
+\addtolength{\headwidth}{\marginparsep}
+% Para el resto de p ́aginas
+\rhead{} 
+\renewcommand{\headrulewidth}{0.0pt} 
+\color{NavyBlue}\lfoot{Universidad de Ibagu\'e Internet Redes y Comunicaciones        2019A.  \LaTeX{}}
+
+\rfoot{\thepage/\pageref{LastPage}} 
+\renewcommand{\footrulewidth}{2pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%\begin{picture}(10,10)(-312,65)
+%    \includegraphics[width=6cm]{figures/logo_uii.png} \\
+%\end{picture}
+
+\tiny \texttt{}\\
+%\Large \color{NavyBlue} \textbf{UNIVERSIDAD DE IBAGU\'E}\\
+
+\begin{center}
+\LARGE \color{Black} {TALLER DE CORTE 3 ASIGNATURA INTERNET: REDES Y COMUNICACIONES} \\ 
+\end{center}
+\color{Black}
+\tiny \texttt{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%             ENCABEZADO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\large \textbf{}  \\
+% Juan Carlos Tique Rangel
+
+\begin{center}
+Tique Juan(2420151028)\\
+\small 2420151028@estudiantesunibague.edu.co\\
+\small Universidad de Ibagu\'e \\
+\small Ibagu\'e-Tolima\\
+\small Carrera 22 Calle 67 B/Ambal�\\
+\small Present to Ing Diego Fernando Guti�rrez
+\end{center}
+
+
+\vspace{0.2cm}
+
+
+
+\vspace{0.15cm} % A bit of extra whitespace 
+
+\renewcommand{\refname}{}
+
+
+%----------------------------------------------------------------------------------------
+\begin{multicols*}{2} % This is how many columns your poster will be broken into, a portrait poster is generally split into 2 columns
+
+\section{� Como se origin� el Internet ?}
+
+El origen del Internet remota al a�o 1961 con la colaboraci�n de distintas universidades estadounidense, estas son la Universidad de California, los �ngeles (UCLA), el instituto de investigaci�n de Stanford(RSI) entre otros y el Departamento de Defensa de los Estados Unidos.\\
+
+Para el a�o 1961, el Dr. Leonard Kleinrock publico un ensayo titulado " Flujo de la informaci�n en redes grandes de comunicaci�n. " En aquel ensayo el Dr. Kleinrock establece las bases para el desarrollo de la red interna que hoy en d�a llamamos Internet.\\
+
+Para este periodo, J. C. R. Licklider fue designado jefe en la oficina de T�cnicas de procesamiento de informaci�n, junto a la Agencia de proyectos de investigacion Avanzada del Departamento de Defensa de los Estados Unidos(DARPA, por sus siglas en ingl�s Department of Defense Advanced Research Projects Agency)\\
+
+Desde el momento que Licklider fue designado jefe, planteo su deseo de tener un mundo conectado mediante una red. No obstante, Licklinder no era especialista en las ciencias de la computaci�n, por ello contrato un grupo de especialistas para efectuar su idea.\\
+
+Lawrence Roberts fue el designado para ejecutar las �rdenes de Licklider y eventualmente, ser�a el creador de ARPANET, la red predecesora del Internet. Roberts fue la primera persona que puso en pr�ctica la teor�a de las redes que hab�a creado el Dr. Kleinrock. Las redes de transferencia de datos desarrolladas por Roberts en esta etapa se emplean a�n hoy en d�a. 
+
+\subsection{� Por que surgi� el Internet ?}
+El Internet surgio de la necesidad de conectar los ordenadores de todo el mundo mediante una red que permita el intercambio de datos. De esta manera, se creo el ARPANET, que establec�a conexiones entre computadoras.\\
+
+Seguidamente, surge la World Wide Web (www) con el objeto de crear una red de informaci�n que uniera textos a trav�s de v�nculos y enlaces. El objetivo de esta red era crear una conexi�n entre la computadora y esta biblioteca virtual.
+
+\section{� Como se logra la comunicaci�n en Internet ?}
+Cada ordenador conectado a internet tiene que utilizar el mismo protocolo de comunicaci�n para comunicarse entre si, en caso contrario no podr�n comunicarse e intercambiar informaci�n.\\
+
+Para que un ordenador pueda conectarse a Internet tiene que estar conectado por medio de un proveedor de acceso a internt(ISP), por ejemplo Movistar, Claro, DIRECTV entre otros, los cuales permiten facilitar la conexion a la red.\\
+
+Lo primero que realiza el proveedor de acceso a Internet es asignar un numero �nico al ordenador adquirido dentro de la red, para cuando este se conecte, se encuentre identificado. Este numero sera �nico en toda la red y es llamado la IP del ordenador. Los n�meros IP de cada ordenador son llamados "direcciones IP".\\
+
+Gracias a la IP unica que tiene cada ordenador conectado a la red de Internet se pueden identificar y comunicar los ordenadores entre si sin confusiones ni errores.\\
+
+Antes de enviar un dato por la red, este se debe codificar de forma tal que sean datos que puedan viajar a trav�s de un cable o si es fibra �ptica, por ondas. Estos datos son se�ales digitales que tienen que ser convertidas a an�logas al enviarlos y en digitales para recibirlos. De esta forma se logra la transmisi�n por la red de forma comprensible. Antes se empleaban dispositivos que hac�an esto como los modem(modulador/demodulador) en el cual se modula a una frecuencia con el fin de enviar informaci�n y se demodula para captarla. Hoy en dia se utilizan routers que son mas inteligentes, ya que ademas de hacer la funci�n del m�dem este es capaz de gestionar los datos enviados osea decir a donde ir�n y que enviar.\\
+
+\section{�Como se distribuyen las IPs en internet?}
+
+Existe una entidad responsable para la asignaci�n de IP a nivel superior, esta es Internet Assigned Numbers Autority(IANA). La distribuci�n de direcciones IPs se realiza en segunda instancia por entidades regionales, que a su vez las asignan a los proveedores de servicio de Internet mencionados anteriormente. Hay cinco registros o RIRs(Regional Internet Registries), estos representan las regiones de Afica, AsiaPacifico, Europa-oriente Medio, Am�rica Latina , Caribe y Am�rica del Norte. La funci�n que realiza IANA es asignar un bloque de direcciones IP a cada entidad responsable de su zona, esta entidad asigna una serie dentro de este bloque para su distribuci�n en cada pa�s y esto lo hacen llegar al usuario final.
+
+\section{�Qu� es la ICANN y los proveedores ISP?}
+
+La ICANN es un organismo el cual se encarga de supervisar y coordinar las direcciones IPs de cada equipo en la red sin dicha coordinaci�n no se podr�a tener Internet en ninguna parte del mundo. Esta coordinaci�n se denomina "resoluci�n universal" lo cual significa que dondequiera que se encuentre de la red y del mundo, recibir� los mismos resultados cuando acceda a Internet. Sin esto, podr�a ocurrir que Internet funcionar�a de una forma totalmente distinta en funci�n de su ubicaci�n geogr�fica.(ICANN,2018)\\
+
+Los provedores ISP son aquellos que proveen una direcci�n para que los equipos que se tengan puedan conectarse a la red ,Lo primero que realiza el proveedor de acceso a Internet es asignar un numero �nico al ordenador adquirido dentro de la red, para cuando este se conecte, se encuentre identificado. Este numero sera �nico en toda la red y es llamado la IP del ordenador. Los n�meros IP de cada ordenador son llamados "direcciones IP".\\
+
+\section{�Que funci�n cumple el consorcio W3C?}
+segun la plataforma oficial del W3C(2019):
+
+El Consorcio World Wide Web (W3C) es una comunidad internacional donde las organizaciones Miembro [ingles], personal [ingles] a tiempo completo y el p�blico en general trabajan conjuntamente para desarrollar est�ndares Web [ingles]. Liderado por el inventor de la Web Tim Berners-Lee [ingles] y el Director Ejecutivo (CEO) Jeffrey Jaffe [ingles], la misi�n del W3C es guiar la Web hacia su m�ximo potencial. Contacta con el W3C para m�s informaci�n.\\
+
+La principal actividad del W3C es desarrollar protocolos y directrices que aseguren el crecimiento de la Web a largo plazo. Los est�ndares del W3C definen las partes claves que hacen que la World Wide Web funcione. Conoce m�s sobre el objetivo del W3C.
+
+\section{�Qu� es la www?}
+Para el mundo inform�tico, la World Wide Web (www) o red inform�tica mundial, es un sistema de distribuci�n de documentos de hipertexto o hipermedia interconectados y accesibles a trav�s de Internet. Mediante un navegador web, un usuario visualiza sitios web con una mezcla de paginas web que pueden contener textos, im�genes, v�deos entre otros contenidos multimedia, y navegar a trav�s de esas paginas usando hiperenlaces.
+
+\section{�Que es y porque es IPV6? y �Cuantos bits usa una direcci�n IPV6?}
+IPV6 es la sexta version de Ip, dise�ada para convivir con IPV4 durante una fase transitoria, hasta que de forma transparente y el IPV4 deje de utilizarse y desaparezca de la red.\\
+
+El Internet se usa para cualquier actividad, ya sea correo electr�nico, navegaci�n web, descarga de archivos, o cualquier otro servicio o aplicaci�n, la comunicaci�n entre los diferentes elementos de la red y nuestro propio computador o tel�fono celular, utiliza un protocolo que denominamos Protocolo de Internet (IP, Internet Protocol).\\
+
+Para que los dispositivos se conecten a la red, necesitan una direcci�n IP. Cuando se dise�� IPv4, casi como un experimento, no se pens� que pudiera tener tanto �xito comercial, y dado que s�lo dispone de $2^{32}$ direcciones (direcciones con una longitud de 32 bits, es decir, 4.294.967.296 direcciones), junto con el imparable crecimiento de usuarios y dispositivos, implica que en pocos meses estas direcciones se agotar�n.\\
+
+Por este motivo, y previendo la situaci�n, el organismo que se encarga de la estandarizaci�n de los protocolos de Internet (IETF, Internet Engineering Task Force), ha trabajado en los �ltimos a�os en una nueva versi�n del Protocolo de Internet, concretamente la versi�n 6 (IPv6), que posee direcciones con una longitud de 128 bits, es decir $2^{128}$ posibles direcciones
+(340.282.366.920.938.463.463.374
+.607.431.768.211.456), o dicho de otro modo, 340 sextillones.\\
+
+El despliegue de IPv6 se ir� realizando gradualmente, en una coexistencia ordenada con IPv4, al que se ir� desplazando a medida que dispositivos electr�nicos con conexi�n a Internet, equipos de red, aplicaciones, contenidos y servicios se vayan adaptando a la nueva versi�n del protocolo de Internet.\\
+
+Por ello, es importante que entendamos c�mo se realiza el despliegue del nuevo protocolo de Internet, tanto si somos usuarios residenciales, como corporativos, proveedores de contenidos, proveedores de servicios de Internet, as� como la propia administraci�n p�blica.\\
+
+\section{Nombre al menos 5 beneficios de IPV6}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.6]{figures/BENEFICIOS.png}
+\caption{IPV6} 
+\end{center}
+\end{figure}
+
+\subsection*{Nuevo formato de encabezado}
+
+El encabezado de IPv6 tiene un nuevo formato que est� dise�ado para minimizar su sobrecarga. Esto se logra moviendo tanto los campos no esenciales como los campos de opci�n a los encabezados de extensi�n. El encabezado optimizado de IPv6 proporciona un procesamiento m�s eficiente en enrutadores intermedios. El nuevo encabezado de IPv6 es dos veces m�s grande que el encabezado de IPv4, a pesar de que las direcciones de IPv6 son cuatro veces m�s grandes que las direcciones de IPv4.
+
+\subsection*{Espacio de direcci�n grande}
+
+IPv6 tiene direcciones de origen y destino de 128 bits (16 bytes). El gran espacio de direcciones de IPv6 ha sido dise�ado para permitir m�ltiples niveles de divisi�n en subredes y asignaci�n de direcciones desde la red troncal de Internet a las subredes individuales dentro de una organizaci�n.
+
+\subsection*{Infraestructura de direccionamiento y direccionamiento eficiente y jer�rquica}
+
+Las direcciones globales de IPv6 est�n dise�adas para crear una infraestructura de enrutamiento eficiente, jer�rquica y resumible que aborde la ocurrencia com�n de m�ltiples niveles de proveedores de servicios de Internet. 
+
+\subsection*{Configuraci�n de direcciones sin estado y con estado}
+
+IPv6 admite tanto la configuraci�n de direcciones con estado, como la configuraci�n de direcciones en presencia de un servidor DHCP, y la configuraci�n de direcciones sin estado (configuraci�n de direcciones en ausencia de un servidor DHCP). 
+
+\subsection*{Seguridad incorporada}
+
+El soporte para IPSec es un requisito de la suite de protocolo IPv6. Este requisito proporciona una soluci�n basada en est�ndares para las necesidades de seguridad de la red y promueve la interoperabilidad entre diferentes implementaciones de IPv6.
+
+\subsection*{Mejor soporte para calidad de servicio (QoS)}
+
+El encabezado del IPv6 define c�mo se maneja e identifica el tr�fico. La identificaci�n de tr�fico, mediante el uso de una Etiqueta de flujo, permite a los enrutadores identificar y proporcionar un manejo especial para los paquetes que pertenecen a un flujo. Un flujo es una serie de paquetes entre un origen y un destino. 
+
+\subsection*{Nuevo protocolo para la interacci�n del nodo vecino.}
+
+El protocolo Neighbor Discovery para IPv6 es una serie de mensajes de Internet Control Message Protocol para IPv6 (ICMPv6) que administran la interacci�n de los nodos vecinos (es decir, los nodos en el mismo enlace).
+
+\subsection*{Expansibilidad}
+
+IPv6 se puede ampliar para nuevas caracter�sticas agregando encabezados de extensi�n despu�s del encabezado de IPv6. 
+
+\section{�cu�l es la direcci�n de loopback en IPV6?}
+
+La direcci�n de loopback tienen �mbito de enlace local, es decir, deben ser usadas en la red directamente conectada. En IPv6 se representa en el formato preferido por el prefijo 0000:0000:0000:0000:0000:0000:0000:0001 y en el formato comprimido por ::1.
+
+\section{�C�mo se crea una direcci�n IPv6 tipo Link-Local?}
+
+Las direcciones link-local se crean de manera autom�tica cuando se asigna una direcci�n IPv6 de unidifusi�n global a la interfaz. No se requieren direcciones de unidifusi�n global en una interfaz, pero s� se requieren direcciones IPv6 link-local.\\
+
+A menos que se configuren manualmente, los routers Cisco crean la direcci�n link-local utilizando el prefijo FE80::/10 y el proceso EUI-64, como se muestra en la figura 1. EUI-64 implica usar la direcci�n MAC de Ethernet de 48 bits, insertar FFFE en el medio e invertir el s�ptimo bit. Para las interfaces seriales, Cisco usa la direcci�n MAC de una interfaz Ethernet. Un router con varias interfaces seriales puede asignar la misma direcci�n link-local a cada interfaz IPv6, porque las direcciones link-local solo necesitan ser locales en el enlace.\\
+
+\section{Un Router que tiene configurado IPv4 e IPv6 simult�neamente en un interfaz, se dice que est� configurado como:}
+
+La segunda t�cnica de transici�n m�s importante es el tunneling. Tunelizar paquetes es un mecanismo por medio del cual un paquete es encapsulado y llevado como carga �til dentro de un paquete IPv6. El paquete resultante es llamado ?paquete tunelizado IPv6?. El camino entre la fuente y el destino del ?paquete tunelizado? es llamado ?t�nel IPv6?. La t�cnica es llamada ?tunelizaci�n IPv6? (IPv6 tunneling).
+
+Existen varias t�cnicas de tunneling, entre ellas:
+
+\begin{itemize}
+\item Tunneling manual de IPv6 sobre IPv4: un paquete de IPv6 se encapsula dentro del protocolo IPv4. Este m�todo requiere routers de stack doble. 
+
+\item Tunneling din�mico 6to4: establece autom�ticamente la conexi�n de islas de IPv6 a trav�s de la red IPv4, normalmente Internet. Aplica din�micamente un prefijo IPv6 v�lido y �nico a cada isla de IPv6, lo que posibilita la implementaci�n r�pida de IPv6 en una red corporativa sin recuperaci�n de direcciones de los ISP o los registros.
+
+\end{itemize}
+
+\section{En IPv4, la forma de asignar una direcci�n IP a un interfaz, es mediante configuraci�n manual, o DHCP. En IPv6, los m�todos disponibles son:}
+
+Los metodos disponibles para asignar una direccion IP a una interfaz son todos los anteriormente mecionados: Manual, DHCP y Stateless Address Autoconfiguration. 
+
+
+
+
+\section*{Referencias}
+
+\begin{thebibliography}{a}
+
+\bibitem @online{,
+title = {C�mo surge INTERNET},
+url = {https://www.lifeder.com/origen-internet/},
+}
+
+\bibitem @online{,
+author = {Catherine Martinez},
+title = {�D�nde Tuvo Origen Internet y Por Qu� se Dio?},
+year = {2017},
+url = {https://www.lifeder.com/origen-internet/},
+}
+
+\bibitem @online{,
+title = {COMO FUNCIONA INTERNET},
+year = {2019},
+url = {https://www.areatecnologia.com/informatica
+/como-funciona-internet.html},
+}
+
+\bibitem @online{,
+title = {PREGUNTAS FRECUENTES SOBRE IPv6},
+url = {https://www.dominios.es/dominios/
+sites/dominios/files/13087278778790.pdf},
+}
+
+\bibitem @online{,
+author = {ICANN},
+title = {�Qu� hace ICANN?},
+year = {2019},
+url = {https://www.icann.org/resources/pages/what-2012-02-25-es},
+}
+
+\bibitem @online{,
+author = {WC3},
+title = {SOBRE EL W3C},
+url = {https://www.w3c.es/Consorcio/},
+}
+
+\bibitem @online{,
+author = {WC3},
+title = {AYUDA Y PREGUNTAS FRECUENTES},
+url = {https://www.w3c.es/ayuda/activity},
+}
+
+\bibitem @online{,
+title = {World Wide Web},
+year = {2019},
+url = {https://es.wikipedia.org/wiki/WorldWideWeb},
+}
+
+\bibitem @online{,
+author = {MinTic},
+title = {�Qu� es IPV6?},
+url = {https://www.mintic.gov.co/portal/604/w3-article-5892.html},
+}
+
+\bibitem @online{,
+author = {NCMX},
+title = {Fundamentos de IPv6},
+url = {http://www.ipv6.mx/index.php/
+informacion/fundamentos/ipv6},
+}
+
+\bibitem @online{,
+title = {Configuraci�n de EIGRP para IPv6},
+url = {https://static-course-assets.s3.amazonaws.com/
+ScaN50ES/course/module7/7.4.2.2/7.4.2.2.html},
+}
+
+\bibitem @online{,
+title = {Tunelizaci�n IPv6},
+url = {https://ipv4to6.blogspot.com/p/tunelizacion-ipv6.html},
+}
+
+
+
+
+\end{thebibliography}
+
+
+
+\end{multicols*}
+\end{document}
+
+
+
+
+%------------------------------------------------
+
+
+
+
