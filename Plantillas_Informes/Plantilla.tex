@@ -1,0 +1,142 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{fullpage}
+\usepackage{anysize}
+\marginsize{2.5cm}{2cm}{1cm}{2cm} %iz, der, arriba, abajo
+
+\usepackage{multicol} % This is so we can have multiple columns of text side-by-side
+\columnsep=20pt % This is the amount of white space between the columns in the poster
+\columnseprule=0pt % This is the thickness of the black line between the columns in the poster
+
+\usepackage[svgnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
+
+\usepackage{times} % Use the times font
+%\usepackage{palatino} % Uncomment to use the Palatino font
+
+\usepackage{graphicx} % Required for including images
+\graphicspath{{figures/}} % Location of the graphics files
+\graphicspath{ {images/} }
+\usepackage{float}
+\usepackage{mathdots} % para el comando \iddots
+\usepackage{mathrsfs} % para formato de letra
+\usepackage{amssymb, amsmath, amsbsy} % simbolitos
+\usepackage{booktabs} % Top and bottom rules for table
+\usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
+\usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
+\usepackage{wrapfig} % Allows wrapping text around tables and figures
+\usepackage{listings}
+\usepackage{matlab-prettifier}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel} %para agregar tildes 
+\usepackage{mathrsfs}
+\usepackage{multicol,caption}
+\usepackage{courier}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Pie de pagina
+\usepackage{fancyhdr} % Cabeceras/Pies
+\pagestyle{fancy} % Cabeceras/Pies
+\usepackage{lastpage}
+\addtolength{\headwidth}{\marginparsep}
+% Para el resto de p ́aginas
+\rhead{} 
+\renewcommand{\headrulewidth}{0.0pt} 
+\lfoot{foot page \LaTeX{}}
+
+\rfoot{\thepage/\pageref{LastPage}} 
+\renewcommand{\footrulewidth}{2pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%\begin{picture}(10,10)(-312,65)
+%    \includegraphics[width=6cm]{figures/logo_uii.png} \\
+%\end{picture}
+
+\tiny \texttt{}\\
+
+
+\begin{center}
+\LARGE \color{Black} {Title} \\ 
+\end{center}
+\color{Black}
+\tiny \texttt{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%             ENCABEZADO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\large \textbf{}  \\
+
+\begin{center}
+Author name\\
+\small email@direction.co\\
+\small University \\
+\small City\\
+\end{center}
+
+
+\vspace{0.2cm}
+
+
+
+\vspace{0.15cm} % A bit of extra whitespace 
+
+\renewcommand{\refname}{}
+
+
+%----------------------------------------------------------------------------------------
+\begin{multicols*}{2} % This is how many columns your poster will be broken into, a portrait poster is generally split into 2 columns
+
+\section{first section}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.5]{figures/ejemplo_img.png}
+\caption{example image} 
+\end{center}
+\end{figure}
+
+\subsection*{Nuevo formato de encabezado}
+
+
+
+\subsection*{Example Item}
+
+\begin{itemize}
+\item item1
+
+\item item2
+
+\end{itemize}
+
+\section*{References}
+
+\begin{thebibliography}{a}
+\bibliographystyle{ieee}
+
+\bibitem @online{,
+title = {title},
+url = {https://www.url.com/},
+}
+
+\bibitem @online{,
+author = {Author name},
+title = {title},
+year = {2017},
+url = {https://www.url.com},
+}
+
+
+\end{thebibliography}
+
+
+
+\end{multicols*}
+\end{document}
+
+
+
+
+%------------------------------------------------
+
+
+
+
